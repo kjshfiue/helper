@@ -226,7 +226,7 @@ function save(){
 	$("#saveButton").attr("href","javascript:save();");
 	if($("#myform").form("validate")){//验证表单的方法，有待验证
 		$.ajax({
-	       cache: true,//读取缓存
+	       cache: true,//读取缓存fiuwehfi
 	       type: "POST",
 	       url:"base/AddBaseContentServlet",
 	       data:$('#myform').serialize(),// 你的formid
